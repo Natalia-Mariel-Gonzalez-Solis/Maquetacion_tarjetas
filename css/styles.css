@@ -23,7 +23,7 @@ body {
   margin-top: 120px;
 }
 
-.container .card {
+.card {
   background-color: white;
   width: 330px;
   height: 430px;
@@ -37,16 +37,19 @@ body {
   -moz-transition: all 0.25;
   -ms-transition: all 0.25;
   -o-transition: all 0.25;
+  transition-duration: 1s;
   cursor: pointer;
 }
 
-.container .card:hover {
+.card:hover {
   transform: translateY(-15px);
   -webkit-transform: translateY(-15px);
   -moz-transform: translateY(-15px);
   -ms-transform: translateY(-15px);
   -o-transform: translateY(-15px);
+  transition-duration: 500ms;
   box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+  background-color: powderblue;
 }
 
 img {
